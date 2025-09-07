@@ -206,7 +206,7 @@ const ProductTableApp = () => {
         {/* Header */}
         <div className="card-header text-white" style={{ backgroundColor: "#cd9043" }}>
           <div className="d-flex align-items-center justify-content-between">
-            <h5 className="mb-0 fw-bold" style={{ color: "#ffffff" }}>Shop Now — Product Catalog</h5>
+            <h5 className="mb-0 fw-bold text-center" style={{ color: "#ffffff" }}>Shop Now — Product Catalog</h5>
             <div className="text-end">
             <button type="button" className="btn btn-light btn-sm" onClick={fetchProducts}>
               ↻ Refresh Products
