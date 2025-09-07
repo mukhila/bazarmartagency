@@ -222,31 +222,33 @@ const ProductTableApp = () => {
             </div>
           )}
 
+          <div className="container-fluid border-top shadow-sm fixed-bottom py-2" style={{ zIndex: 1050, backgroundColor: "#ce132f" }}>
+
           {/* Summary */}
-          <div className="row g-3 mb-3" >
+          <div className="row g-3 mb-3 bg-white" >
             <div className="col-12 col-md-3">
               <div className="border rounded p-3 text-center h-100">
-                <div className="text-muted ">Total Products</div>
-                <div className="fs-4 fw-bold text-primary">{totalProducts}</div>
+                <div className="text-muted fw-bold">Total Products</div>
+                <div className="fs-2 fw-bold text-primary">{totalProducts}</div>
               </div>
             </div>
             <div className="col-12 col-md-3">
               <div className="border rounded p-3 text-center h-100">
-                <div className="text-muted ">Your Savings</div>
-                <div className="fs-4 fw-bold text-success">₹{totalSavings.toFixed(2)}</div>
+                <div className="text-muted fw-bold">Your Savings</div>
+                <div className="fs-2 fw-bold text-success">₹{totalSavings.toFixed(2)}</div>
               </div>
             </div>
             <div className="col-12 col-md-3">
               <div className="border rounded p-3 text-center h-100">
-                <div className="text-muted ">Total Amount</div>
-                <div className="fs-4 fw-bold text-dark">₹{totalAmount.toFixed(2)}</div>
+                <div className="text-muted fw-bold">Total Amount</div>
+                <div className="fs-2 fw-bold text-dark">₹{totalAmount.toFixed(2)}</div>
               </div>
             </div>
             <div className="col-12 col-md-3 d-flex flex-column justify-content-center">
               <button
                 type="button"
                 className="btn"
-                style={{ backgroundColor: "#d5576a", borderColor: "#d5576a", color: "#ffffff" }}
+                style={{ backgroundColor: "#ce132f", borderColor: "#ce132f", color: "#ffffff" }}
                 onClick={handleCheckout}
                 disabled={totalAmount < minOrderAmount}
               >
@@ -257,7 +259,7 @@ const ProductTableApp = () => {
               </div>
             </div>
           </div>
-
+</div>
           {/* Table */}
           {products.length > 0 ? (
             <div className="table-responsive">
@@ -477,7 +479,7 @@ const ProductTableApp = () => {
                 <button type="button" className="btn btn-secondary" onClick={() => setShowCheckout(false)}>
                   Close
                 </button>
-                <button type="button" className="btn btn-primary" onClick={submitOrder}>
+                <button type="button" className="btn btn-primary" onClick={submitOrder} style={{ backgroundColor: "#ce132f", borderColor: "#ce132f", color: "#ffffff" }}>
                   Submit Order
                 </button>
               </div>
