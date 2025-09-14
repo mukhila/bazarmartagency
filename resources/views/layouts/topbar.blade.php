@@ -10,7 +10,8 @@
                                 <a href="tel:+918148015576"><i class ="fa fa-phone"></i> +91 81480 15576</a>
                                 <a href="#">Order Tracking</a>
                             </div>
-                            <p>Welcome to Bazart Mart!</p>
+                            <p>Welcome to Bazart Mart!</p> 
+                            <p>Minimum order of Rs. 3500/- is required.</p>
                             <div class="follow-us-social">
                                 <span>Follow Us:</span>
                                 <div class="social">
@@ -66,8 +67,8 @@
                                 </div>
                                 <div class="right-btn-area">
                                 <button class="rts-btn btn-primary" style="background-color: #cd9043;">
-                                    Get 30% Discount Now
-                                    <span>Sale</span>
+                                   Factory Resale
+                                    <span>Best Price</span>
                                 </button>
                             </div>
                         </div>
