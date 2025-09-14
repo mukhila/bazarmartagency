@@ -35,9 +35,9 @@
                             <div class="footer-nav">
                                 <ul>
                                     <li><a href="#">Delivery Information</a></li>
-                                    <li><a href="#">Privacy Policy</a></li>
-                                    <li><a href="#">Terms & Conditions</a></li>
-                                    <li><a href="#">Support Center</a></li>
+                                    <li><a href="{{ route('refundandreturnpolicy') }}">Refund and Returns Policy</a></li>
+                                    <li><a href="{{ route('termsandconditions') }}">Terms & Conditions</a></li>
+                                    <li><a href="{{ route('contact') }}">Support Center</a></li>
                                  
                                 </ul>
                             </div>
