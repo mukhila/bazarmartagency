@@ -15,7 +15,7 @@ const ProductTableApp = () => {
     email: "",
   });
 
-  const minOrderAmount = 3000;
+  const minOrderAmount = 3500;
 
   // ---------- Fetch ----------
   const fetchProducts = async () => {
