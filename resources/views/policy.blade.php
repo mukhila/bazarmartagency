@@ -83,5 +83,3 @@
             </div>
         </div>
     </div>
-@include('policy')
-@endsection

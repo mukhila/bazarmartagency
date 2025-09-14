@@ -3,6 +3,7 @@
 @stack('styles')
 
 @yield('content')
+@include('policy')
 @include('layouts.footer')
 @stack('scripts')
 </body>

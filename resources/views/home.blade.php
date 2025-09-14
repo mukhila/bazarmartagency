@@ -124,7 +124,7 @@
     <!-- rts banenr area ends -->
 
 
-@include('policy')
+
 
 
 @endsection
