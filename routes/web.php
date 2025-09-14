@@ -10,6 +10,7 @@ use App\Http\Controllers\Api\OrderApiController;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('contact', [HomeController::class, 'contact'])->name('contact');
+Route::get('aboutus', [HomeController::class, 'aboutus'])->name('aboutus');
 Route::get('termsandconditions', [HomeController::class, 'termsAndConditions'])->name('termsandconditions');
 Route::get('refundandreturnpolicy', [HomeController::class, 'privacyPolicy'])->name('refundandreturnpolicy');
 

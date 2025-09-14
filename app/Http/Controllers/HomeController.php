@@ -56,4 +56,11 @@ class HomeController extends Controller
         $products = Product::all();
         return view('refundandreturnpolicy', compact('categories', 'products'));
     }
+    public function aboutus()
+    {
+        $categories = Category::all();
+        $products = Product::all();
+        return view('aboutus', compact('categories', 'products'));
+    }
+
 }
